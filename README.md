@@ -20,5 +20,5 @@ Requirements:
 - AMD drivers installed
 
 ```bash
-docker run --device /dev/dri:/dev/dir --rm -it sonm/benchmark-gpu-eth
+docker run --device /dev/dri:/dev/dri --rm -it sonm/benchmark-gpu-eth
 ```
