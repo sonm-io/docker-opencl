@@ -11,7 +11,7 @@ Requirements:
 - NVidia Docker 2 installed
 
 ```bash
-docker run --runtime=nvidia --rm -it sonm/benchmark-gpu-eth
+docker run --runtime=nvidia --rm -it sonm/opencl clinfo
 ```
 
 ## Running with AMD GPUs
@@ -20,5 +20,5 @@ Requirements:
 - AMD drivers installed
 
 ```bash
-docker run --device /dev/dri:/dev/dri --rm -it sonm/benchmark-gpu-eth
+docker run --device /dev/dri:/dev/dri --rm -it sonm/opencl clinfo
 ```
